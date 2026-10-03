@@ -27,8 +27,7 @@ jobs:
 
       - name: Rozpakuj projekt
         run: |
-          unzip -o SunoGenerator-Android-2.0-fixed.zip -d projekt
-
+          unzip -o SunoGenerator-Android-2.0-fixed-jvm17.zip -d projekt
       - name: Znajdź projekt Android
         run: |
           PROJECT_DIR=$(find projekt -name settings.gradle.kts -type f -print -quit | xargs dirname)
