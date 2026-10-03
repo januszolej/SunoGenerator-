@@ -1,6 +1,9 @@
 name: Buduj Suno Generator APK
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
